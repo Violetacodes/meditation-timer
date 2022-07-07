@@ -1,0 +1,46 @@
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    margin-top: 200px;
+    background: azure;
+    padding: 25px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', cursive;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+#btn:hover {
+    background: linear-gradient(to right, #cae749, #fdd997);
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-10;
+
+}
